@@ -571,3 +571,7 @@ body.ttrss_main .notify>img {
 #content-insert {
     scrollbar-width: none;
 }
+
+body.ttrss_main #headlines-frame #headlines-spacer a:hover {
+    color: #81a1c1;
+}
