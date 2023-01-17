@@ -1,0 +1,573 @@
+body.ttrss_main #feeds-holder #feedTree {
+    font-family: MiSans;
+}
+
+body.ttrss_main #feeds-holder #feedTree .dijitTreeNode .dijitTreeRow .counterNode {
+    font-size: 11px;
+}
+
+body.ttrss_main {
+    background-color: rgb(36, 41, 51);
+    color: rgb(236, 239, 244);
+}
+
+.flat .dijitAccordionInnerContainer:not(.dijitSelected) i.material-icons,
+.flat .dijitTab i.material-icons {
+    color: inherit;
+}
+
+#prefsTab {
+    background-color: #2e3440;
+}
+
+#content-wrap#content-wrap #headlines-frame,
+#content-wrap#content-wrap #toolbar {
+    background-color: rgb(46, 52, 64);
+}
+
+#content-wrap#content-wrap .cdm.expandable:not(.active):hover>*,
+#content-wrap#content-wrap .hl:hover>* {
+    background-color: #4c566a;
+}
+
+body.ttrss_main #toolbar-frame #toolbar #selected_prompt {
+    color: rgb(236, 239, 244);
+}
+
+.flat .dijitMenuItemSelected td,
+.flat .dijitMenuItemSelected {
+    color: #d8dee9;
+    background-color: #4c566a;
+}
+
+::selection {
+    background: #4c566a;
+    color: #d8dee9;
+}
+
+.flat .dijitMenuItemHover td,
+.flat .dijitMenuItemHover {
+    color: #d8dee9;
+    background-color: #4c566a
+}
+
+.flat .dijitMenu {
+    background: #3b4252;
+    border: 1px solid #2e3440;
+    border-radius: 10px;
+}
+
+.flat .dijitMenuPopup .dijitMenu {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.flat .dijitMenu .dijitMenuItem.dijitDisabled:not(.dijitMenuItemSelected) .dijitMenuItemLabel {
+    color: #88c0d0;
+}
+
+#content-wrap#content-wrap .cdm[data-article-id],
+#content-wrap#content-wrap .hl {
+    background-color: #3b4252;
+}
+
+#content-wrap#content-wrap .hl:hover>* {
+    border-radius: 10px;
+}
+
+#content-wrap#content-wrap .cdm.expandable:not(.active).Selected,
+#content-wrap#content-wrap .cdm.expandable:not(.active).active,
+#content-wrap#content-wrap .hl.Selected,
+#content-wrap#content-wrap .hl.active {
+    border-width: 0px;
+    background-color: #4c566a !important;
+}
+
+#content-wrap#content-wrap .cdm.expandable:not(.active).marked,
+#content-wrap#content-wrap .hl.marked {
+    border-width: 0px;
+    background-color: #434c5e;
+}
+
+#feedTree {
+    background-color: #2e3440;
+}
+
+#content-wrap#content-wrap #headlines-frame[data-is-wide-screen=true]~#content-insert .header {
+    background-color: #2e3440;
+}
+
+body.ttrss_main a {
+    color: #81a1c1;
+}
+
+body.flat.ttrss_main a:hover {
+    color: #88c0d0;
+}
+
+#content-wrap#content-wrap .content,
+#content-wrap#content-wrap .content-inner {
+    color: #d8dee9;
+}
+
+#content-wrap#content-wrap .dijitContentPane {
+    background-color: #2e3440;
+}
+
+#content-wrap#content-wrap .post .content {
+    background-color: #3b4252;
+    border-radius: 10px;
+    margin: 5px 10px 10px 0;
+}
+
+body.ttrss_main .dijitSplitter {
+    background-color: #2e3440;
+}
+
+#content-wrap#content-wrap .hl {
+    margin-right: -15px;
+    border-width: 0px;
+}
+
+#content-wrap#content-wrap .hl>* {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+body.ttrss_main .post .header {
+    border-bottom-width: 0px;
+}
+
+body.flat.ttrss_main .dijitSplitterHover {
+    background-color: #2e3440;
+}
+
+body.ttrss_main .cdm.marked .left i.marked-pic,
+body.ttrss_main .hl.marked .left i.marked-pic {
+    color: #8fbcbb;
+}
+
+body.ttrss_main .cdm.published .left i.pub-pic,
+body.ttrss_main .hl.published .left i.pub-pic {
+    color: #d08770;
+}
+
+#content-wrap#content-wrap .header>.left .dijitCheckBox.dijitCheckBoxChecked,
+#content-wrap#content-wrap .hl>.left .dijitCheckBox.dijitCheckBoxChecked {
+    background-color: #a3be8c;
+}
+
+.feed .vfeedMenuAttach:nth-child(10n+1) {
+    background-color: #bf616a;
+}
+
+#content-wrap .hl:nth-child(4n+1) .feed.vfeedMenuAttach a {
+    background: #8fbcbb !important;
+    color: #4c566a !important;
+}
+
+#content-wrap .hl:nth-child(4n+2) .feed.vfeedMenuAttach a {
+    background: #88c0d0 !important;
+    color: #4c566a !important;
+}
+
+#content-wrap .hl:nth-child(4n+3) .feed.vfeedMenuAttach a {
+    background: #81a1c1 !important;
+    color: #4c566a !important;
+}
+
+#content-wrap .hl:nth-child(4n+4) .feed.vfeedMenuAttach a {
+    background: #5e81ac !important;
+    color: #d8dee9 !important;
+}
+
+#overlay #overlay_inner {
+    color: #d8dee9;
+}
+
+body.flat.ttrss_main #overlay {
+    background: #2e3440;
+}
+
+#overlay #loading_bar .dijitProgressBarFull {
+    background-color: #2e3440;
+}
+
+.flat .dijitSelectHover {
+    background-color: #4c566a;
+}
+
+.flat .dijitToolbar .dijitButtonHover .dijitButtonNode,
+.flat .dijitToolbar .dijitDropDownButtonHover .dijitButtonNode,
+.flat .dijitToolbar .dijitToggleButtonHover .dijitButtonNode,
+.flat .dijitToolbar .dijitComboButtonHover .dijitButtonNode {
+    background-color: #4c566a;
+    border: 0px;
+}
+
+#feeds-holder#feeds-holder #feedTree .loadingNode {
+    filter: invert(50%) brightness(100%);
+}
+
+.flat .dijitAccordionInnerContainerHover .dijitAccordionTitle {
+    background: #4c566a;
+}
+
+.flat .dijitAccordionInnerContainerActive .dijitAccordionTitle {
+    background: #434c5e;
+}
+
+.flat .dijitAccordionInnerContainerSelected .dijitAccordionTitle {
+    background-color: #3b4252;
+}
+
+.flat .dijitTabContainerTop-dijitContentPane,
+.flat .dijitTabContainerLeft-dijitContentPane,
+.flat .dijitTabContainerBottom-dijitContentPane,
+.flat .dijitTabContainerRight-dijitContentPane {
+    background-color: #2e3440;
+}
+
+.flat .dijitAccordionContainer-dijitContentPane {
+    background-color: #3b4252;
+}
+
+.flat .dijitTabContainerTop-tabs .dijitTabChecked::before {
+    height: 0px;
+}
+
+.flat .dijitAccordionInnerContainer {
+    border: 0px;
+}
+
+.flat .dijitAccordionContainer .dijitAccordionChildWrapper {
+    background-color: #333;
+    border: 0px;
+}
+
+.flat .dijitTab.dijitTabChecked {
+    background-color: #3b4252;
+    border-radius: 7px;
+    margin-right: 7px;
+}
+
+.flat .dijitButton.alt-danger .dijitButtonNode,
+.flat .dijitDropDownButton.alt-danger .dijitButtonNode,
+.flat .dijitComboButton.alt-danger .dijitButtonNode,
+.flat .dijitToggleButton.alt-danger .dijitButtonNode,
+.flat .dijitComboBox.alt-danger .dijitButtonNode,
+.flat .dijitSelect.alt-danger .dijitButtonContents,
+.flat .dijitSelect.alt-danger .dijitButtonNode,
+.flat .dijitSpinner.alt-danger .dijitArrowButton {
+    background: #bf616a;
+    color: #d8dee9;
+    border-width: 0px;
+}
+
+.flat .dijitButton.alt-info .dijitButtonNode,
+.flat .dijitDropDownButton.alt-info .dijitButtonNode,
+.flat .dijitComboButton.alt-info .dijitButtonNode,
+.flat .dijitToggleButton.alt-info .dijitButtonNode,
+.flat .dijitComboBox.alt-info .dijitButtonNode,
+.flat .dijitSelect.alt-info .dijitButtonContents,
+.flat .dijitSelect.alt-info .dijitButtonNode,
+.flat .dijitSpinner.alt-info .dijitArrowButton {
+    background: #5e81ac;
+    color: #d8dee9;
+    border-width: 0px;
+}
+
+#dijit_layout_ContentPane_0 {
+    background-color: #3b4252;
+}
+
+.flat .dijitAccordionInnerContainer {
+    background-color: transparent;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.flat .dijitAccordionTitle {
+    background-color: #2e3440;
+}
+
+.flat .dijitContentPane {
+    background-color: #3b4252;
+    padding: 8px;
+}
+
+.flat .dijitTabPaneWrapper {
+    border: 0px !important;
+    border-radius: 10px;
+    margin: 7px 7px 7px 7px;
+}
+
+.dijitTabController.dijitTabContainerLeft-tabs.dijitAlignLeft .dijitTab {
+    border-radius: 7px;
+    margin-top: 10px;
+
+}
+
+.dijitTabController.dijitTabContainerLeft-tabs.dijitAlignLeft .dijitTab::before {
+    width: 0px;
+}
+
+.flat .dijitSelect {
+    border-width: 0px;
+    border-radius: 7px;
+    background: #434c5e;
+}
+
+.flat .dijitTextBox {
+    background: #434c5e;
+    border: 0px;
+    border-radius: 7px;
+}
+
+.flat .dijitComboBox .dijitButtonNode {
+    background: #434c5e;
+    border: 0;
+    border-radius: 7px;
+}
+
+.flat .dijitButton .dijitButtonNode,
+.flat .dijitDropDownButton .dijitButtonNode,
+.flat .dijitComboButton .dijitButtonNode,
+.flat .dijitToggleButton .dijitButtonNode {
+    border: 0px;
+    border-radius: 7px;
+    background: #434c5e;
+}
+
+.flat .dijitCheckBox.dijitCheckBoxChecked {
+    background-color: #a3be8c;
+    border: 0px;
+}
+
+.flat .dijitSpinner .dijitArrowButton {
+    border: 0px;
+    background-color: #434c5e;
+    border-radius: 7px;
+}
+
+.flat .dijitCheckBox {
+    border: 0px;
+    background-color: #434c5e;
+}
+
+.flat .dijitButton.alt-primary .dijitButtonNode,
+.flat .dijitDropDownButton.alt-primary .dijitButtonNode,
+.flat .dijitComboButton.alt-primary .dijitButtonNode,
+.flat .dijitToggleButton.alt-primary .dijitButtonNode,
+.flat .dijitComboBox.alt-primary .dijitButtonNode,
+.flat .dijitSelect.alt-primary .dijitButtonContents,
+.flat .dijitSelect.alt-primary .dijitButtonNode,
+.flat .dijitSpinner.alt-primary .dijitArrowButton {
+    background: #a3be8c;
+    color: #4c566a;
+}
+
+.flat table.dijitComboButton .dijitStretch {
+    border-radius: 7px 0 0 7px;
+}
+
+.flat table.dijitComboButton .dijitArrowButton {
+    border-radius: 0 7px 7px 0;
+}
+
+.flat .dijitToolbar {
+    background-color: #3b4252;
+    border-radius: 4px;
+}
+
+.flat .dijitContentPane .dijitTabPane {
+    background-color: #2e3440;
+}
+
+.flat .dijitButton.alt-warning .dijitButtonNode,
+.flat .dijitDropDownButton.alt-warning .dijitButtonNode,
+.flat .dijitComboButton.alt-warning .dijitButtonNode,
+.flat .dijitToggleButton.alt-warning .dijitButtonNode,
+.flat .dijitComboBox.alt-warning .dijitButtonNode,
+.flat .dijitSelect.alt-warning .dijitButtonContents,
+.flat .dijitSelect.alt-warning .dijitButtonNode,
+.flat .dijitSpinner.alt-warning .dijitArrowButton {
+    background: #d08770;
+    color: #d8dee9;
+    border: 0px;
+}
+
+.flat .dijitButton.alt-success .dijitButtonNode,
+.flat .dijitDropDownButton.alt-success .dijitButtonNode,
+.flat .dijitComboButton.alt-success .dijitButtonNode,
+.flat .dijitToggleButton.alt-success .dijitButtonNode,
+.flat .dijitComboBox.alt-success .dijitButtonNode,
+.flat .dijitSelect.alt-success .dijitButtonContents,
+.flat .dijitSelect.alt-success .dijitButtonNode,
+.flat .dijitSpinner.alt-success .dijitArrowButton {
+    background: #8fbcbb;
+    color: #4c566a;
+    border: 0px;
+}
+
+.dijitDialog {
+    background-color: #2e3440 !important;
+    border: 0px !important;
+    border-radius: 10px !important;
+}
+
+.flat .dijitDialogTitleBar {
+    border-bottom: 0px;
+}
+
+.dijitDialogPaneContent {
+    background: #3b4252 !important;
+}
+
+body.flat.ttrss_main .dijitDialog .panel {
+    background-color: #2e3440;
+    border: 0px;
+    border-radius: 10px;
+}
+
+body.flat.ttrss_main .alert {
+    background: #2e3440;
+    border: 0px;
+    border-radius: 10px;
+    color: #8fbcbb !important;
+}
+
+.dijitTabContainerTopChildWrapper.dijitVisible .dijitContentPane>img {
+    filter: invert() brightness(80%);
+}
+
+body.flat.ttrss_main code {
+    color: #b48ead !important
+}
+
+body.ttrss_main .text-info,
+body.ttrss_utility .text-info {
+    color: #81a1c1;
+}
+
+body.flat.ttrss_main.ttrss_prefs #footer,
+body.flat.ttrss_main.ttrss_prefs #main {
+    background: #2e3440 !important;
+}
+
+body.ttrss_prefs #feedsTab {
+    background: #2e3440;
+}
+
+.dijitTreeContainer .feedParam {
+    padding-right: 20px;
+}
+
+.flat .dijitTreeRowSelected,
+.flat .dijitTreeRowHover.dijitTreeRowSelected,
+.flat .dijitTreeRowActive.dijitTreeRowSelected {
+    color: #d8dee9;
+    background-color: #4c566a;
+    border-radius: 4px;
+}
+
+.flat .dijitTab {
+    border: 0px !important;
+}
+
+body.flat.ttrss_main .dijitDialog .dijitDialogPaneContent,
+body.flat.ttrss_main .dijitTab:not(.dijitTabChecked) {
+    background: #2e3440;
+    border-radius: 7px;
+    margin-right: 7px;
+}
+
+body.flat.ttrss_main .dijitTabHover:not(.dijitTabChecked) {
+    background: #4c566a;
+}
+
+body.flat.ttrss_main .dijitTabActive:not(.dijitTabChecked) {
+    background: #434c5e;
+}
+
+.flat .dijitTabPaneWrapper.dijitTabContainerLeft-container.dijitAlignCenter {
+    margin-left: 10px;
+}
+
+.flat .dijitTreeExpando {
+    color: #88c0d0;
+}
+
+.flat .dijitTreeRowHover {
+    background-color: #434c5e;
+    border-radius: 4px;
+}
+
+.flat .dijitTabPaneWrapper {
+    top: 35px !important;
+}
+
+#headlines-frame .hl {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.dijit.dijitToolbar>span:first-of-type {
+    margin-left: 10px;
+}
+
+.flat .dijitAccordionInnerContainer:first-child,
+.flat .dijitAccordionInnerContainer:first-child .dijitAccordionTitle {
+    border-radius: 10px 10px 0 0;
+}
+
+.flat .dijitAccordionInnerContainer:last-child,
+.flat .dijitAccordionInnerContainer:last-child .dijitAccordionTitle {
+    border-radius: 0 0 10px 10px;
+}
+
+.flat .dijitTabChecked.dijitTabActive {
+    color: inherit;
+}
+
+body.flat.ttrss_main label.dijitButton:hover {
+    border: 0px;
+    background-color: #3b4252;
+}
+
+body.flat.ttrss_main label.dijitButton {
+    border: 0px;
+    background-color: #434c5e;
+}
+
+.flat .dijitValidationTextBoxError .dijitValidationContainer {
+    color: #bf616a;
+}
+
+body.ttrss_main .notify,
+body.ttrss_main .notify.notify_progress {
+    border-color: #d7c47a;
+    background-color: #5e81ac;
+    border-radius: 10px;
+    border: 0px !important;
+}
+
+body.ttrss_main .notify>img {
+    filter: invert(50%)brightness(200%) !important;
+}
+
+#feedTree .dijitTreeRow {
+    margin-left: 5px;
+}
+
+#feedTree {
+    scrollbar-width: none;
+}
+
+#headlines-frame {
+    scrollbar-width: none;
+}
+
+#content-insert {
+    scrollbar-width: none;
+}
