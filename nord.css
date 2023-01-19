@@ -575,3 +575,14 @@ body.ttrss_main .notify>img {
 body.ttrss_main #headlines-frame #headlines-spacer a:hover {
     color: #81a1c1;
 }
+
+body.ttrss_main .notify.notify_info {
+    border-color: #b87d2c;
+    background-color: #5e81ac;
+    border: 0px !important;
+    border-radius: 10px;
+}
+
+body.ttrss_main .notify.notify_info i.icon-notify {
+    color: #d8dee9;
+}
