@@ -586,3 +586,7 @@ body.ttrss_main .notify.notify_info {
 body.ttrss_main .notify.notify_info i.icon-notify {
     color: #d8dee9;
 }
+
+body.ttrss_main #feeds-holder #feedTree .dijitTreeNode .dijitTreeRow.Error .dijitTreeLabel {
+    color: #bf616a;
+}
